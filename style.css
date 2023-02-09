@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+body{
+    background-color: 	#101010;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 700px;
+    color: gray;
+}
+
+.user{
+    max-height: 160px;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.user img{
+    max-height: 160px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.plus {
+    
+    min-height: 220px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plus img{
+    height:50px;
+    width: 50px;
+}
+
+.plus figure {
+    display: flex;
+    background-color: gray;
+    border-radius: 10px;
+    height: 160px;
+    width: 160px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.normal:hover{
+    border: 3px solid white;
+}
+
+figure:hover{
+    border: 3px solid white;
+}
+
+.entraUser{
+    margin: 100px;
+    background-color: 	#101010;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.entraUser:hover{
+    background-color: white;
+    transition: 0.7;
+    color: black;
+}
