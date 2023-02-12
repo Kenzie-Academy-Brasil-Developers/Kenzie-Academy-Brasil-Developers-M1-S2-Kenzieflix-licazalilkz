@@ -41,8 +41,14 @@ body{
 }
 
 .plus img{
-    height:50px;
-    width: 50px;
+    height:80px;
+    width: 80px;
+    filter: brightness(30%)
+}
+
+
+.plus img:hover{
+    filter: brightness(100%);
 }
 
 .plus figure {
@@ -58,10 +64,15 @@ body{
 
 .normal:hover{
     border: 3px solid white;
+    color: white;
 }
 
 figure:hover{
     border: 3px solid white;
+}
+
+.plus:hover{
+    color: white;
 }
 
 .entraUser{
